@@ -1,3 +1,54 @@
+# **Fraudulent Voice Generation Detection Model**
+
+This model was developed to detect fraudulent voice generation techniques such as malicious code, deepfakes, and voice phishing. It uses deep learning technology to accurately detect voice generation techniques.
+
+## **How it Works**
+
+The model works as follows: first, the input audio file is converted into a spectrogram. Next, the converted spectrogram data is input into a convolutional neural network (CNN) model. The CNN model analyzes the input data to determine whether the audio file was generated using voice generation technology. The model was trained with powerful machine learning algorithms to ensure high accuracy.
+
+Since the model analyzes the spectrogram data of an audio file, it can be used regardless of the length or language of the audio file. Additionally, the model is designed with a structure that can be easily updated to accommodate new voice generation techniques.
+
+This model can be used to detect fraudulent voice-based actions such as malicious code, deepfakes, and voice phishing, thereby preventing fraudulent behavior and enhancing user security.
+
+# **Deepfake Detection Model**
+
+This model was developed to detect deepfake videos, which are manipulated videos created using artificial intelligence techniques that manipulate real footage to create a new video that appears real but is actually fake.
+
+## **How it Works**
+
+The model uses deep learning technology to analyze the video frames and detect any signs of manipulation. It works by breaking down the video into individual frames and using a convolutional neural network (CNN) to analyze each frame and determine whether it has been manipulated.
+
+The model has been trained on a large dataset of both real and manipulated videos to ensure high accuracy. The training process involves feeding the model a variety of videos and teaching it to recognize the subtle differences between real and manipulated videos.
+
+Once the model has analyzed each frame, it can determine whether the video is real or a deepfake. It does this by comparing the analyzed frames to a database of known manipulated video frames and identifying any similarities. If the model detects any signs of manipulation, it will flag the video as a deepfake.
+
+This model can be used to prevent the spread of deepfake videos, which can be used to spread misinformation and cause harm. By detecting and removing deepfake videos, this model can help protect individuals and organizations from the negative consequences of deepfake technology.
+
+## **Running the Model**
+
+Due to GitHub's file size limitations, it was not possible to upload the saved model file containing the parameters required to run the deepfake detection model. Therefore, the model code was uploaded to the repository without the saved model file.
+
+If you want to run the model locally, you will need to obtain the saved model file separately and modify the code to load the saved parameters. This can be done by using a file-sharing service or other means to transfer the saved model file to your local machine, and then modifying the code to load the file using the appropriate path.
+
+Once you have obtained the saved model file and modified the code, you should be able to run the deepfake detection model on your local machine.
+
+It's important to note that modifying the code to load the saved model file requires a basic understanding of the programming language used to develop the model. If you are not familiar with the language, you may need to seek assistance from a developer or other technical expert.
+
+Overall, while the inability to upload the saved model file to GitHub is a limitation, it is still possible to run the deepfake detection model locally with some additional effort and modifications to the code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Audio Deep Fake Detection
 
 A Course Project for SUTD 50.039 Theory and Practice of Deep Learning (2022 Spring)
